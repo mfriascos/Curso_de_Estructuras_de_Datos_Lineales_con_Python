@@ -29,6 +29,7 @@
 - [Python como Base de Programación](#python-como-base-de-programación)
 - [Elementos de la Programación en Python](#elementos-de-la-programación-en-python)
 - [Tipos de colecciones](#tipos-de-colecciones)
+- [Operaciones Esenciales en colecciones](#operaciones-esenciales-en-colecciones)
 
 # Python como Base de Programación 
 
@@ -100,4 +101,46 @@ Grupo de cero o más elementos que pueden tratarse como una unidad conceptual
     * No tienen orden en partícular 
     * No hay predecesores o sucesores
 
- 
+# Operaciones Esenciales en Colecciones 
+
+* Tamaño
+* Pertenencia
+* Recorrido
+* String
+* Igualdad
+* Concatenación 
+* Conversión de tipo 
+* Insertar
+* Remover
+* Reemplazar
+* Acceder
+
+ejemplo 
+
+```Python 
+["isabel","Mulan",255,["Pucca","Percy"]]
+
+fruits = []
+fruits.append("kiwi")
+fruits.append("Berry")
+fruits.append("Melon")
+
+fruits.sort()                   # Ordena la lista de forma alfabetica. 
+fruits.pop()                    # Elimina el último elemento
+fruits.insert(0,"Apple")        # Inserta Apple en el índice 0
+fruits.insert(1,"Strawberry")
+fruits.pop(1)                   # Remueve el elemento que está en el índice 1
+fruits.remove("Apple")          # Remueve Apple 
+
+def pyramid_sum(lower, upper, margin=0):
+    blanks = " " * margin
+    print(blanks, lower, upper)
+
+    if lower > upper: 
+        print(blanks,0)
+        return 0
+    else:
+        result = lower + pyramid_sum(lower+1, upper, margin+4)
+        print(blanks, result)
+        return result
+```
