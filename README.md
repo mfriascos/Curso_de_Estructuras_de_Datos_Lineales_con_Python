@@ -27,6 +27,7 @@
 <h2>CONTENT LIST</h2>
 
 - [Python como Base de Programación](#python-como-base-de-programación)
+- [Elementos de la Programación en Python](#elementos-de-la-programación-en-python)
 
 # Python como Base de Programación 
 
@@ -44,4 +45,28 @@
 * Interactivo
 * Propósito General
 * Gratis y Popular 
+
+# Elementos de la Programación en Python 
+
+<h3>Requisitos Mínimos</h3>
+
+* Elementos léxicos de Python o Keywords 
+* Convenciones de estilo 
+* Operadores, Manejo de strings y Literals 
+* Entender sobre listas, tuplas, conjuntos, diccionarios 
+
+<h3>Tener Claro</h3>
+
+* Declaración de funciones 
+* Recursividad
+* funciones anidadas
+* High Order Functions
+* Funciones lambda
+* Programación Orientada a Objetos 
+
+<h3>Nice to have</h3>
+
+* Manejo de excepciones 
+* Manipulación de archivos
+
 
