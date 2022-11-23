@@ -28,6 +28,7 @@
 
 - [Python como Base de Programación](#python-como-base-de-programación)
 - [Elementos de la Programación en Python](#elementos-de-la-programación-en-python)
+- [Tipos de colecciones](#tipos-de-colecciones)
 
 # Python como Base de Programación 
 
@@ -69,4 +70,34 @@
 * Manejo de excepciones 
 * Manipulación de archivos
 
+# Tipos de Colecciones
 
+<h3>Colección</h3>
+
+Grupo de cero o más elementos que pueden tratarse como una unidad conceptual 
+
+<h3>Tipos de datos</h3>
+
+* Non-zero value -> Es cualquier valor, positivo o negativo que no es cero
+* Cero -> Literalmente cero
+* Null -> indica nada o None
+* Undefined -> Cualquier valor que no está definido 
+
+<h3>Tipos de colecciones</h3>
+
+* Dinámicas -> Aquellas que pueden crecer o disminuir su tamaño 
+* Inmutables -> Aquellas que no van a cambiar 
+* Lienales -> Una fila para un concierto, una pila de platos por lavar. 
+    * Ordenadas por su posición o su indice, donde todas tienen un predecesor, excepto la primera 
+* Jerárquicas -> Sistema de directorios, índices de libros 
+    * Ordenadas como árbol invertido 
+    * Sólo el primer elemento No tiene predecesor 
+    * Padres e hijos 
+* Grafos -> Rutas de los vuelos aereos. 
+    * Cada dato puede tener varios predecesores y sucesores
+    * Estos se llaman 'vecinos'
+* Desordenadas -> Bolsa de cánicas 
+    * No tienen orden en partícular 
+    * No hay predecesores o sucesores
+
+ 
