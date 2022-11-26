@@ -144,3 +144,20 @@ def pyramid_sum(lower, upper, margin=0):
         print(blanks, result)
         return result
 ```
+
+# Colecciones Incoroporadas en Python
+
+Listas / Lists | Tuplas / Tuples | Conjuntos | Diccionarios |
+------------- | ------------- | ------------- | -------------
+Propósito general | Inmutables (No se pueden añadir o cambiar) | Almacenan objetos no duplicados | Pares de llaves/valor.
+Estructura más utilizada  | Útiles para datos constantes | De acceso rápido | Arrays asociativos (hash maps).
+Tamaño dinámico | Más rápidas que las listas | Aceptan operaciones lógicas | Son desordenados
+de tipo secuencial | Tipo secuencial | Son desordenados
+Ordenable |         |
+
+Es muy importante saber cuando usar una cierta colección, ya que de ello depende tanto el tamañi que ocupará en memoria
+como la velocidad en ciertas tareas. 
+
+De forma general es recomendable usar tuplas en lugar de listas siempre que no se requiera estar cambiando los valores, ya que ocupan menos espacio en memoria. Así como usar sets o diccionarios para búsqueda de un elemento ya que son más rápidos.  
+
+
