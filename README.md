@@ -158,6 +158,25 @@ Ordenable |         |
 Es muy importante saber cuando usar una cierta colección, ya que de ello depende tanto el tamañi que ocupará en memoria
 como la velocidad en ciertas tareas. 
 
-De forma general es recomendable usar tuplas en lugar de listas siempre que no se requiera estar cambiando los valores, ya que ocupan menos espacio en memoria. Así como usar sets o diccionarios para búsqueda de un elemento ya que son más rápidos.  
+De forma general es recomendable usar tuplas en lugar de listas siempre que no se requiera estar cambiando los valores, ya que ocupan menos espacio en memoria. Así como usar sets o diccionarios para búsqueda de un elemento ya que son más rápidos. 
 
+# Arrays 
+
+Es una estructura de datos lineal, las estructuras de datos son representaciones internas de una colección de información, por lo que un array puede representarse de una forma particular.  
+
+<h3>conceptos clave</h3>
+
+* **Elemento** Valor almacenado en las posiciones del array.
+* **Índice** Referencia a la posición del elemento. 
+
+<h3>Los arrays son restrictivos</h3>
+
+No pueden: 
+
+* Agregar posiciones.
+* Remover posiciones.
+* Modificar su tamaño. 
+* Su capacidad se define al crearse. 
+
+Los arrays se utilizan para videojuegos o en un menu de opciones. 
 
