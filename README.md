@@ -218,3 +218,26 @@ class Array:
 ```
 Se creo una clase array, definimos métodos y sus comportamientos. Por defecto, cada uno de esos elementos tiene un valor igual a 'None'. Luego con un ciclo for se cambiaron los valores. 
 
+# Crear un Array de Dos Dimensiones 
+
+<h3>Otros Nombres</h3>
+
+* Bi-dimensional array
+* Two-dimensional array
+* Grid
+* Rejilla
+* Malla
+* Tabla 
+
+<h3>Estructura</h3>
+
+Es similar a una tabla en la cual se tienen filas y columnas 
+
+|             |**Columna 0**|**Columna 1**|**Columna 2**
+------------- | ------------- | ------------- | -------------
+|**Fila 0**| 0 | 1 | 2 
+|**Fila 1**| 3 | 4 | 5
+|**Fila 2**| 6 | 7 | 8
+
+
+
