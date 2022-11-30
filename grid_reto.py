@@ -1,4 +1,5 @@
-from array_reto import Array
+from array import Array
+import random
 
 class Grid():
     def __init__(self, rows, columns, fill_value = None) -> None:
@@ -21,8 +22,21 @@ class Grid():
         for row in range(self.__get_height__()):
             for col in range(self.__get_width__()):
                 result += str(self.data[row][col]) + " "
-            
             result += "\n"
+            
         
         return str(result)
+    
+    def __random__(self):
+        
+        for row in range(self.__get_height__()):
+            for col in range(self.__get_width__()):
+                self.data[row][col] = random.randint(0,10)
+    
+    def __sequency__(self,x):
+        for row in range(self.__get_height__()):
+            for col in range(self.__get_width__()):
+                self.data[row][col] = x + col + row
+            
+            x +=(self.__get_width__()-1)
     
