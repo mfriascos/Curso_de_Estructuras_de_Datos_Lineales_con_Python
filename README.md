@@ -36,6 +36,7 @@
 - [Crear un Array de Dos Dimensiones](#crear-un-array-de-dos-dimensiones)
 - [Nodos y Singly Linked List](#nodos-y-singly-linked-list)
 - [Crear Nodos](#crear-nodos)
+- [Crear Singly Linked List](#crear-singly-linked-list)
 
 # Python como Base de Programación 
 
@@ -286,4 +287,6 @@ Qué hicimos ?
 -> Declaramos 3 variables, node1, node2 y node3, node1 tenía como valor None, es decir no tenía ningún valor, node2 tenía un valor de "A", pero se conectaba a None, es decir a ningún valor y el tercer nodo si tenía un valor y hacía referencia al segundo nodo. 
 
 <p align="center"><img width=40% src="./pictures/Nodes_3.png"></p>
+
+# Crear Singly Linked List
 
