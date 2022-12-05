@@ -30,6 +30,12 @@
 - [Elementos de la Programación en Python](#elementos-de-la-programación-en-python)
 - [Tipos de colecciones](#tipos-de-colecciones)
 - [Operaciones Esenciales en colecciones](#operaciones-esenciales-en-colecciones)
+- [Colecciones Incorporadas en Python](#colecciones-incoroporadas-en-python)
+- [Arrays](#arrays)
+- [Crear un Array](#crear-un-array)
+- [Crear un Array de Dos Dimensiones](#crear-un-array-de-dos-dimensiones)
+- [Nodos y Singly Linked List](#nodos-y-singly-linked-list)
+- [Crear Nodos](#crear-nodos)
 
 # Python como Base de Programación 
 
@@ -155,7 +161,7 @@ Tamaño dinámico | Más rápidas que las listas | Aceptan operaciones lógicas 
 de tipo secuencial | Tipo secuencial | Son desordenados
 Ordenable |         |
 
-Es muy importante saber cuando usar una cierta colección, ya que de ello depende tanto el tamañi que ocupará en memoria
+Es muy importante saber cuando usar una cierta colección, ya que de ello depende tanto el tamaño que ocupará en memoria
 como la velocidad en ciertas tareas. 
 
 De forma general es recomendable usar tuplas en lugar de listas siempre que no se requiera estar cambiando los valores, ya que ocupan menos espacio en memoria. Así como usar sets o diccionarios para búsqueda de un elemento ya que son más rápidos. 
@@ -239,5 +245,45 @@ Es similar a una tabla en la cual se tienen filas y columnas
 |**Fila 1**| 3 | 4 | 5
 |**Fila 2**| 6 | 7 | 8
 
+# Nodos y Singly Linked List
 
+<h3>Linked Structures</h3>
+
+Consiste de nodos conectados a otros, se pueden encontrar de forma sencilla o dobles y para recorrerrlos, no se hace por indices, sino que se recorre toda la lista hasta encontrar un valor, esto implica ciertas ventajas y desventajas 
+
+<h4>Conceptos Clave</h4>
+
+* **Data** Valor almacenado en nodos 
+* **Next** Referencia al siguiente nodo en la lista
+* **Previous** Referencia al nodo anterior 
+* **Head** Referencia al primer nodo. 
+* **Tail** Referencia al último nodo. 
+
+Los linkedstructures están repartidos en memoria, no son contiguos a diferencia de los arrays, para poder hacer referencia a otro dato, se utiilizan los nodos que se van a conectar a otro dato en otro espacio de memoria y luego se va a conectar a otro que contenga otro espacio en memoria, sin que sean contiguos
+
+<h4>Implementación</h4>
+
+* Implementar otras estructuras. 
+* Optimización
+
+Cuando los datos son pequeños se pueden optimizar por medio de nodos. 
+
+* Hacer/rehacer operaciones en un editor de texto (ctrl + z).
+* Historial de un navegador. 
+
+# Crear Nodos 
+
+<h3>Singly Linked List con Nodos</h3>
+
+* Creamos una clase Node
+* Referimos valores
+* Unimos nodos iterando 
+
+<p align="center"><img width=40% src="./pictures/Nodes.png"></p>
+
+Qué hicimos ?
+
+-> Declaramos 3 variables, node1, node2 y node3, node1 tenía como valor None, es decir no tenía ningún valor, node2 tenía un valor de "A", pero se conectaba a None, es decir a ningún valor y el tercer nodo si tenía un valor y hacía referencia al segundo nodo. 
+
+<p align="center"><img width=40% src="./pictures/Nodes_3.png"></p>
 
