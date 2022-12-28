@@ -288,5 +288,19 @@ Qué hicimos ?
 
 <p align="center"><img width=40% src="./pictures/Nodes_3.png"></p>
 
-# Crear Singly Linked List
+# Operaciones con Single Linked Structures
+
+<h3>El Dilema</h3>
+
+Los Arrays usan índices, en Linked Structures debemos emularlos. 
+
+Una de las operaciones más comunes es el de recorrido, que es en donde utilizamos los índices, pero, debido a que las Linked Structures no tienen índice, se tomará una variable auxiliar denominada **probe**, la cual nos proporcionará un puntero temporal que permitirá recorrer la lista consultando datos.
+
+```bash
+python3
+```
+```python
+from node import Node
+
+
 
